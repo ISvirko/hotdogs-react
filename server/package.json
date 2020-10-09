@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dropdb": "sequelize-cli db:drop",
+    "createdb": "sequelize-cli db:create",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize-cli db:seed:all",
+    "start": "node start.js",
+    "dev": "nodemon -r dotenv/config start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "migrate": "^1.7.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.4.1",
+    "seed": "^0.4.4",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
