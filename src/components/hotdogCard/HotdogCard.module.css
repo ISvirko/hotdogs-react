@@ -1,0 +1,39 @@
+.hotdogCard {
+  padding: 16px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotdogCard:hover {
+  transform: scale(1.03);
+}
+
+.hotdogName {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.hotdogPrice {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.hotdogDescription {
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.button {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+}
