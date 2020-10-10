@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hotdogs-react/static/css/main.e947a8a9.chunk.css",
-    "main.js": "/hotdogs-react/static/js/main.991999f1.chunk.js",
-    "main.js.map": "/hotdogs-react/static/js/main.991999f1.chunk.js.map",
-    "runtime-main.js": "/hotdogs-react/static/js/runtime-main.eb7191de.js",
-    "runtime-main.js.map": "/hotdogs-react/static/js/runtime-main.eb7191de.js.map",
-    "static/js/2.067a25c0.chunk.js": "/hotdogs-react/static/js/2.067a25c0.chunk.js",
-    "static/js/2.067a25c0.chunk.js.map": "/hotdogs-react/static/js/2.067a25c0.chunk.js.map",
-    "index.html": "/hotdogs-react/index.html",
-    "precache-manifest.8c9b235d0b88870e1cf9b39b8eb77c3b.js": "/hotdogs-react/precache-manifest.8c9b235d0b88870e1cf9b39b8eb77c3b.js",
-    "service-worker.js": "/hotdogs-react/service-worker.js",
-    "static/css/main.e947a8a9.chunk.css.map": "/hotdogs-react/static/css/main.e947a8a9.chunk.css.map",
-    "static/js/2.067a25c0.chunk.js.LICENSE.txt": "/hotdogs-react/static/js/2.067a25c0.chunk.js.LICENSE.txt",
-    "static/media/hotdog-icon.png": "/hotdogs-react/static/media/hotdog-icon.3bc1d159.png"
+    "main.css": "/hotdogs-react-postgreSQL/static/css/main.e947a8a9.chunk.css",
+    "main.js": "/hotdogs-react-postgreSQL/static/js/main.991999f1.chunk.js",
+    "main.js.map": "/hotdogs-react-postgreSQL/static/js/main.991999f1.chunk.js.map",
+    "runtime-main.js": "/hotdogs-react-postgreSQL/static/js/runtime-main.63cf8341.js",
+    "runtime-main.js.map": "/hotdogs-react-postgreSQL/static/js/runtime-main.63cf8341.js.map",
+    "static/js/2.067a25c0.chunk.js": "/hotdogs-react-postgreSQL/static/js/2.067a25c0.chunk.js",
+    "static/js/2.067a25c0.chunk.js.map": "/hotdogs-react-postgreSQL/static/js/2.067a25c0.chunk.js.map",
+    "index.html": "/hotdogs-react-postgreSQL/index.html",
+    "precache-manifest.3960fdec3e7ff5fb19629bbdf0385090.js": "/hotdogs-react-postgreSQL/precache-manifest.3960fdec3e7ff5fb19629bbdf0385090.js",
+    "service-worker.js": "/hotdogs-react-postgreSQL/service-worker.js",
+    "static/css/main.e947a8a9.chunk.css.map": "/hotdogs-react-postgreSQL/static/css/main.e947a8a9.chunk.css.map",
+    "static/js/2.067a25c0.chunk.js.LICENSE.txt": "/hotdogs-react-postgreSQL/static/js/2.067a25c0.chunk.js.LICENSE.txt",
+    "static/media/hotdog-icon.png": "/hotdogs-react-postgreSQL/static/media/hotdog-icon.3bc1d159.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb7191de.js",
+    "static/js/runtime-main.63cf8341.js",
     "static/js/2.067a25c0.chunk.js",
     "static/css/main.e947a8a9.chunk.css",
     "static/js/main.991999f1.chunk.js"
