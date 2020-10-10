@@ -3,7 +3,7 @@ import {
   combineReducers,
   getDefaultMiddleware,
 } from "@reduxjs/toolkit";
-// import logger from "redux-logger";
+import logger from "redux-logger";
 import { reducer as formReducer } from "redux-form";
 import itemSlice from "./itemSlice";
 
@@ -18,8 +18,7 @@ const store = configureStore({
 
   middleware: getDefaultMiddleware({
     serializableCheck: false,
-  }),
-  // .concat(logger),
+  }).concat(logger),
 });
 
 export default store;
