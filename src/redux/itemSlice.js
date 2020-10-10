@@ -41,9 +41,16 @@ const error = createSlice({
   initialState: null,
 
   reducers: {
+    addItemRequest: () => null,
     addItemError: (_, { payload }) => payload,
+
+    getAllItemsRequest: () => null,
     getAllItemsError: (_, { payload }) => payload,
+
+    deleteItemRequest: () => null,
     deleteItemError: (_, { payload }) => payload,
+
+    updateItemRequest: () => null,
     updateItemError: (_, { payload }) => payload,
   },
 });
