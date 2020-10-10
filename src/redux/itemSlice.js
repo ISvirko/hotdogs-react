@@ -19,20 +19,21 @@ const loading = createSlice({
 
   reducers: {
     addItemRequest: () => true,
-    addItemSuccess: () => false,
-    addItemError: () => false,
-
     getAllItemsRequest: () => true,
-    getAllItemsSuccess: () => false,
-    getAllItemsError: () => false,
-
     deleteItemRequest: () => true,
-    deleteItemSuccess: () => false,
-    deleteItemError: () => false,
-
     updateItemRequest: () => true,
-    updateItemSuccess: () => false,
-    updateItemError: () => false,
+  },
+
+  extraReducers: {
+    "items/getAllItemsSuccess": () => false,
+    "items/addItemSuccess": () => false,
+    "items/deleteItemSuccess": () => false,
+    "items/updateItemSuccess": () => false,
+
+    "errors/getAllItemsError": () => false,
+    "errors/addItemError": () => false,
+    "errors/deleteItemError": () => false,
+    "errors/updateItemError": () => false,
   },
 });
 
@@ -41,17 +42,17 @@ const error = createSlice({
   initialState: null,
 
   reducers: {
-    addItemRequest: () => null,
     addItemError: (_, { payload }) => payload,
-
-    getAllItemsRequest: () => null,
     getAllItemsError: (_, { payload }) => payload,
-
-    deleteItemRequest: () => null,
     deleteItemError: (_, { payload }) => payload,
-
-    updateItemRequest: () => null,
     updateItemError: (_, { payload }) => payload,
+  },
+
+  extraReducers: {
+    "items/getAllItemsRequest": () => null,
+    "items/addItemRequest": () => null,
+    "items/deleteItemRequest": () => null,
+    "items/updateItemRequest": () => null,
   },
 });
 
