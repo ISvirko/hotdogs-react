@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { connect, useDispatch } from "react-redux";
 import { Field, reduxForm } from "redux-form";
 import itemOperations from "../../redux/itemOperations";
@@ -17,11 +18,13 @@ const EditForm = ({
   const { hid, image, name } = item;
 
   const dispatch = useDispatch();
+  const history = useHistory();
 
   const handleSubmitEdit = (values) => {
     dispatch(itemOperations.updateItem(values));
     dispatch(itemSlice.currentItem.actions.unsetEditedItem());
     setEditMode(false);
+    history.push("/hotdogs");
   };
 
   return (

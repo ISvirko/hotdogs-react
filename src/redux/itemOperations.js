@@ -49,7 +49,7 @@ const deleteItem = (id) => async (dispatch) => {
 
 const updateItem = (item) => async (dispatch) => {
   dispatch(itemsSlice.loading.actions.updateItemRequest());
-  console.log(item);
+
   try {
     const res = await axios.put(`/hotdogs/${item.hid}`, item);
 
