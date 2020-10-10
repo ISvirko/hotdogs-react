@@ -7,12 +7,15 @@ import styles from "./HotdogList.module.css";
 const HotDogList = () => {
   const { items } = useSelector(itemSelectors);
 
+  const sortedItems =
+    items.length > 0 && items.slice().sort((a, b) => a.hid - b.hid);
+
   return (
     <>
       <h1 className={styles.listTitle}>All hot dogs</h1>
       {items.length > 0 ? (
         <ul className={styles.list}>
-          {items.map((item) => (
+          {sortedItems.map((item) => (
             <li key={item.hid}>
               <HotdogCard item={item} />
             </li>
